@@ -21,4 +21,6 @@ from testapp import views
 urlpatterns = [
     url(r'^admin/',admin.site.urls),
     url(r'^register/',views.studentregisterview),
+    url(r'^feedback/',views.feedback_view),
+    url(r'^thank/',views.thank_view),
 ]
